@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "mongoid", "~> 2.2.0"
+gem "mongo_mapper", "~> 0.14.0"
 
-gemspec name: "periscope-mongoid", path: "../../"
+gemspec name: "periscope-mongo_mapper", path: "../../"
 
 group :test do
   gem "codeclimate-test-reporter", require: false
