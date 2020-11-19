@@ -9,5 +9,5 @@ require "active_support"
 
 require "mongo_mapper"
 
-MongoMapper.connection = Mongo::Connection.new
+MongoMapper.connection = Mongo::Client.new
 MongoMapper.database = "periscope_test"

@@ -8,8 +8,6 @@ gemspec name: "periscope-mongoid"
 group :test do
   gem "codeclimate-test-reporter", require: false
   gem "database_cleaner"
-  gem "dm-migrations"
-  gem "dm-sqlite-adapter"
   gem "factory_girl"
   gem "rspec"
   gem "sqlite3"
