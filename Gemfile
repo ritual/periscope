@@ -11,4 +11,6 @@ group :test do
   gem "factory_girl"
   gem "rspec"
   gem "sqlite3"
+  gem 'activemodel-serializers-xml'
+  gem 'active_model_serializers'
 end

@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.homepage = "https://github.com/laserlemon/periscope"
   gem.license  = "MIT"
 
-  gem.add_dependency "mongo_mapper", "> 0.13", "< 0.16"
+  gem.add_dependency "mongo_mapper", ">= 0.14", "< 0.16"
   gem.add_dependency "periscope", "~> 2.1.0"
 
   gem.files = %w(
