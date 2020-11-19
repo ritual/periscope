@@ -1,12 +1,13 @@
 source "https://rubygems.org"
 
-gem "mongo_mapper", "~> 0.13.0"
+gem "activerecord", "~> 5.1.0"
 
-gemspec name: "periscope-mongo_mapper", path: "../../"
+gemspec name: "periscope-activerecord", path: "../../"
 
 group :test do
   gem "codeclimate-test-reporter", require: false
   gem "database_cleaner"
   gem "factory_girl"
   gem "rspec"
+  gem "sqlite3"
 end
