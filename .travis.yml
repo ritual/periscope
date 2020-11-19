@@ -20,11 +20,11 @@ language: ruby
 matrix:
   allow_failures:
     - rvm: ruby-head
-  # exclude:
-  #   - rvm: 2.6.5
-  #     gemfile: gemfiles/active_record/5-1.gemfile
-  #   - rvm: 2.6.5
-  #     gemfile: gemfiles/active_record/5-2.gemfile
+  exclude:
+    - rvm: 2.6.5
+      gemfile: gemfiles/active_record/5-1.gemfile
+    - rvm: 2.6.5
+      gemfile: gemfiles/active_record/5-2.gemfile
 rvm:
   - 2.6.5
   - ruby-head
