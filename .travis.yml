@@ -11,11 +11,8 @@ env:
       fEEfEFU+Q3TPDtZ+YUjXbzRST6w734OqEltU0QNoFd+j1PL94c6o8iEniJT+
       JAhKTfB5G7X8ZApxCSwBg3ADhM5VdNbF1itYQkg4OJac2mQfx38=
 gemfile:
-  - gemfiles/active_record/5-0.gemfile
   - gemfiles/active_record/5-1.gemfile
   - gemfiles/active_record/5-2.gemfile
-  - gemfiles/mongo_mapper/0-14.gemfile
-  - gemfiles/mongo_mapper/0-15.gemfile
   - gemfiles/mongoid/6-4.gemfile
   - gemfiles/mongoid/7-1.gemfile
   - gemfiles/mongoid/7-1.gemfile
