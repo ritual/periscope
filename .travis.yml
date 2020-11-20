@@ -13,6 +13,8 @@ env:
 gemfile:
   - gemfiles/active_record/5-1.gemfile
   - gemfiles/active_record/5-2.gemfile
+  - gemfiles/active_record/6-0.gemfile
+  - gemfiles/active_record/6-1.gemfile
   - gemfiles/mongoid/6-4.gemfile
   - gemfiles/mongoid/7-1.gemfile
   - gemfiles/mongoid/7-1.gemfile
